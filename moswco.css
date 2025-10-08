@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+  background-color: #FFF7DF;
+}
+
+.top-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.top-bar img{
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a{
+    align-self: center;
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.login-btn{
+    background-color: #000000;
+    color: white;
+    border-radius: 35px;
+    padding: 12px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.h1-colored{
+    color: #FFDA66;
+}
+
+.header{
+    align-items: center;
+    padding-bottom: 65px;
+}
+
+.header p{
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-btn{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.start-btn{
+    background-color: #FFDA66;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 35px;
+    padding: 12px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-exp{
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+
+h2{
+    font-size: 33px;
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+ 
+.grid-exp p{
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.grid-box{
+    width: 400px;
+    padding: 30px;
+    background-color: #FFF7DF;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid-box img{
+    width: 50px;
+    display: inline-block;
+}
+
+.grid-exp-main{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 50px;
+}
+
+.advantages-sect{
+    padding: 50px 30px;
+    display: grid;
+    justify-content: center;
+    gap: 150px;
+    grid-template-columns: repeat(2, auto);
+}
+
+.h2-left{
+    text-align: left;
+}
+
+.advantages-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.advt-lite{
+    font-weight: lighter;
+}
+
+h4{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trial{
+    background-color: #7DC7E2;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.trial p{
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start-btn-2{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border-radius: 35px;
+    padding: 12px 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    padding: 20px 20px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 320px;
+}
+
+footer img{
+    width: 150px;
+}
+
+footer p{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-title{
+    font-weight: bold;
+}
+
+.links{
+    list-style: none;
+}
+
+.links a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul{
+    padding-left: 0px;
+    margin: 0px;
+    line-height:30px;
+}
