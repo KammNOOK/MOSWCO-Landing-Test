@@ -47,6 +47,14 @@ body{
     margin-right: 30px;
 }
 
+
+@media (max-width: 768px) {
+    .nav-links a{
+        display: none;
+    }
+}
+
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -73,6 +81,16 @@ Arial, cursive;;
     text-align: center;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .header p{
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 5px;
+    white-space: normal;
+}
 }
 
 .center-btn{
@@ -149,12 +167,46 @@ h3{
     gap: 50px;
 }
 
+@media (max-width: 768px) {
+    .grid-exp-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-box{
+        width: 280px;
+        margin: 0 auto;
+        padding-bottom: 0px;
+        padding-top: 10px;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .grid-exp p{
+        padding-bottom: 10px;
+    }
+    .grid-box h3{
+        padding: 0px;
+    }
+}
+
 .advantages-sect{
     padding: 50px 30px;
     display: grid;
     justify-content: center;
     gap: 150px;
     grid-template-columns: repeat(2, auto);
+}
+
+@media (max-width: 768px) {
+    .advantages-sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    }
+    .advantages-sect img{
+        width: 300px;
+    }
 }
 
 .h2-left{
@@ -174,6 +226,17 @@ h3{
 h4{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .trial h2{
+        white-space: normal;
+        margin: 0 15px;
+    }  
+    .trial p{
+        white-space: normal;
+        margin: 0 15px;
+    }
 }
 
 .trial{
@@ -208,6 +271,16 @@ footer{
     grid-template-columns: repeat(4, auto);
     justify-content: center;
     gap: 320px;
+}
+
+@media (max-width: 768px) {
+    footer{
+        grid-template-columns: repeat(2, auto);
+        gap: 0px;
+    }
+    .social-icons {
+        padding-right: 40px;
+    }
 }
 
 footer img{
